@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Jade
+  m_Name: L02_Jade
   m_Shader: {fileID: 4800000, guid: 7c44f0ffa1d55594c95c24dac8d59233, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

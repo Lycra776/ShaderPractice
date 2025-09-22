@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lemtert
-  m_Shader: {fileID: 4800000, guid: c18f4dd97dbbdc64f9aaaef816b10c4a, type: 3}
+  m_Name: L02_Line
+  m_Shader: {fileID: 4800000, guid: 10d529dcd2c9d73499ba20e0c99f0e2d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,10 +19,11 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _node_179:
-        m_Texture: {fileID: 2800000, guid: e3d05f24ff4cca947a873494a561c9cb, type: 3}
+    - _node_4308:
+        m_Texture: {fileID: 2800000, guid: 6a5dcedef7e121e468bf55afed723d35, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - _Color: {r: 0.07843138, g: 0.3921569, b: 0.7843137, a: 1}
+    - _node_2310: {r: 0, g: 1, b: 1, a: 0}
+    - _node_4570: {r: 0, g: 0.5, b: 0.5, a: 0}

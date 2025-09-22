@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Halftone
+  m_Name: L02_Halftone
   m_Shader: {fileID: 4800000, guid: e8e6c9069689a9949b1934d444934d1d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
