@@ -1,4 +1,4 @@
-﻿Shader "AP01/Lession1/Code1" {
+﻿Shader "AP01/L3/Code1" {
     Properties {
     }
     SubShader {
