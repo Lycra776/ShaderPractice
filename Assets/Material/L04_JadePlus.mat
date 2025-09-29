@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: L02_Jade
-  m_Shader: {fileID: 4800000, guid: 7c44f0ffa1d55594c95c24dac8d59233, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_Name: L04_JadePlus
+  m_Shader: {fileID: 4800000, guid: 55e9f6d73d55af746a3670d227b00cb1, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -23,22 +23,17 @@ Material:
         m_Texture: {fileID: 2800000, guid: a8b62d64efec5704980fefabeceb10ac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_8266:
-        m_Texture: {fileID: 2800000, guid: a8b62d64efec5704980fefabeceb10ac, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - __1: 0.993
-    - __2: 0.995
-    - _node_7548: 0.9
+    - __2: 0.9995
+    - _node_3174: 0.5
+    - _node_7215: 1
+    - _node_7257: 0.5
+    - _node_7257_copy: 0
     m_Colors:
-    - _: {r: -0.13, g: 0.13, b: 0.26, a: -0.09}
-    - _1: {r: 0, g: 0.5, b: 0, a: 0}
+    - _1: {r: 0, g: 0.47, b: 0, a: 0}
     - _2: {r: 0, g: 0, b: 0, a: 0}
+    - _node_2893: {r: 1, g: 0.5, b: 0.5, a: 1}
+    - _node_2893_copy: {r: 1, g: 0.5, b: 0.5, a: 1}
     - _node_597: {r: 1, g: 1, b: 1, a: 0}
     - _node_7815: {r: 1, g: 1, b: 1, a: 0}
-    - _node_9704: {r: 0, g: 0, b: 0, a: 0}

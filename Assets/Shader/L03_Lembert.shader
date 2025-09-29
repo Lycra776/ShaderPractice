@@ -21,20 +21,26 @@ Shader "AP01/L3/Lembert" {
                 
                 struct VertexInput {
                     float4 vertex : POSITION;
-                    float4 normal :
+                    float3 normal : NORMAL;
                 };
                 struct VertexOutput {
                     float4 pos : SV_POSITION;
+                    float3 nDirWS : TEXCOORD0;
                 };
                 VertexOutput vert (VertexInput v) {
                     VertexOutput o = (VertexOutput)0;
                     o.pos = UnityObjectToClipPos( v.vertex );
+                    o.nDirWS = UnityObjectToWorldNormal( v.normal);
                     return o;
                 }
 
 
                 float4 frag(VertexOutput i) : COLOR {
-                    return float4(1.0,0,0,0);
+                    float3 nDir = i.nDirWS;
+                    float3 lDir = _WorldSpaceLightPos0.xyz;
+                    float nDot1 = dot(i.nDirWS,lDir);
+                    float lambert = max(0.0,nDot1);
+                    return float4(lambert,lambert,lambert,1.0);
                 }
                 ENDCG
             }
